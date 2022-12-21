@@ -25,7 +25,7 @@ model_1 <- aov(sleep_rem ~ vore, data = df)
 summary(model_1)
 
 ## p < .05 -> reject null that there is no difference
-## statistically significant
+## statistically significant, true difference
 
 # all of the above in one step
 msleep %>%
